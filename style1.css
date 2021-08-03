@@ -1,0 +1,184 @@
+
+a{
+    text-decoration: none;
+}
+}
+header{
+    background:tomato;
+    padding: 10px 0px;
+}
+header::after{
+    content:'' ;
+    display: block;
+    clear: both;
+}
+.menu-icon{
+    display: none;
+}
+.menu-icon i{
+    margin-top:20px;
+    float: right;
+    padding:30px 10px 0;
+    font-size: 30px;
+
+}
+#call {
+    top:20px;
+   margin-left:200px;
+   position: relative;
+   color: rgb(14, 13, 13);
+   font-size: 17px;
+   color: green;
+   
+
+}
+#li{
+    margin:10px 20px;
+}
+.logo img{
+    width:100px;
+    height: 100px;
+    top:0px;
+    left:5px;
+}
+.searchTerm {
+    margin-left: 30px;
+    margin-top:3px;
+    width: 50%;
+    border: 2px solid #00B4CC;
+    border-right: none;
+    padding: 15px;
+    height: 1px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+    color: black;
+    font-family: cursive;
+    margin-top:5px;
+  }
+  .searchButton {
+    width: 40px;
+    height: 35px;
+    border: 2px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    margin-left: -3px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    color:white;
+    margin-top:2px;
+  }
+.menu{
+ 
+}
+.menu::after{
+    
+        content:'' ;
+        display: block;
+        clear: both;
+}
+.menu ul{
+    
+    display: flex;
+    list-style: none;
+    float: right;
+}
+.menu ul li{}
+.menu ul li a{
+    padding: 25px 10px 0px;
+    display: block;
+    color:black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.logo{
+    width: 50px;
+    height: 100px;
+    float: left;
+    
+}
+/*responsive area*/
+@media(max-width:1600px){
+    .menu ul li a{
+        padding: 30px 20px 0px;
+        display: block;
+        color:black;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+}
+@media(max-width:1420px){
+    .menu ul li a{
+        
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}
+@media(max-width:1360px){
+    .menu ul li a{
+        padding: 20px 15px 0px;
+        display: block;
+        color:black;
+        text-transform: uppercase;
+    }
+}
+@media(max-width:1300px){
+    .menu ul li a{
+        padding: 20px 10px 0px;
+        display: block;
+        color:black;
+        text-transform: uppercase;
+    }
+}
+@media(max-width:1256px){
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .menu-icon i{
+        padding-top:10px ;
+        padding-right: 20px;
+    }
+    .menu{
+        z-index: 999;
+       background-color: #34495e;
+       position: absolute;
+       right:0px;
+       top:70px ;
+       width: 100% ;
+       display: none;
+       margin-top: 30px;
+      
+    }
+    .menu ul{
+      
+        display: block;
+        float: none;
+        padding: 20px 20px;
+       
+    }
+    .header .col-9{
+        position: static ;
+    }
+    .logo{
+        width: 50px;
+        height: 100px;
+        float: left;
+        z-index: 999;
+        
+    }
+    .searchTerm {
+        margin-left: -5px;
+    }
+    #call{
+        margin-left: 0;
+        padding:0px 20px 20px 0px ;
+    }
+    .menu ul li a:hover{
+        background-color: white;
+        transition: 0.6s;
+        padding:10px;
+    }
+}

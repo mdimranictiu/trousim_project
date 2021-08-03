@@ -1,0 +1,474 @@
+/*responsive area*/
+@media(max-width:1600px){
+
+    #bg_1{
+        width: 40%;
+        height: 15%;
+      
+        margin-left: 30%;
+        z-index: 20;
+        margin-top: 15%;
+        position: absolute;
+        
+       
+    }
+    h2{
+        padding: 14px 15px;
+        font-size: 50px;
+        font-family: Pristina;
+        letter-spacing: 0.5em;
+        color: white;
+        font-weight: 700;
+    }
+    #selection ul{
+        margin-left: 10%;
+    }
+    .destination_area{
+        width: 90%;
+       height: auto;
+        position: relative;
+        margin-top: 3%;
+        margin-left: 5%;
+        float: left;
+    }
+    .fot{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media(max-width:1400px){
+    #bg_1{
+        width: 40%;
+        height: 15%;
+      
+        margin-left: 20%;
+        z-index: 20;
+        margin-top: 25%;
+        position: absolute;
+        
+       
+    }
+    h2{
+        padding: 14px 15px;
+        font-size: 50px;
+        font-family: Pristina;
+        letter-spacing: 0.5em;
+        color: white;
+        font-weight: 700;
+    }
+    #selection ul{
+        margin-left: 8%;
+    }
+    .container {
+
+       
+    }
+    .social ul li{
+        padding: 6px 16px;
+    }
+    #email{
+        width: 200px;
+        height: 40px;
+    }
+    .container h1{
+        font-size: 16px;
+        margin-left: 25px;
+    } .destination_area{
+        width: 100%;
+       height: auto;
+        position: relative;
+        margin-top: 3%;
+        margin-left: 5%;
+        float: left;
+    }
+}
+@media(max-width:1265px){
+    #bg_1{
+        width: 40%;
+        height: 15%;
+      
+        margin-left: 20%;
+        z-index: 20;
+        margin-top: 25%;
+        position: absolute;
+        
+       
+    }
+    h2{
+        padding: 14px 15px;
+        font-size: 50px;
+        font-family: Pristina;
+        letter-spacing: 0.5em;
+        color: white;
+        font-weight: 700;
+    }
+    #selection ul{
+        margin-left: 1%;
+    }
+    #most_area{
+        margin-top:2%;
+      
+    }
+    #most_area h1{
+        text-align: center;
+        color: #0C3E72;
+        font-size: 35px;
+        margin-top: 0%;
+        position: relative;
+        font-family: system-ui;
+        text-transform: capitalize;
+    }.area{
+        width: 90%;
+        height:650px;
+        
+        margin: 1% auto;
+        position: relative;
+    }
+    .img_area{
+        width: 45%;
+        float: left;
+        margin-top:5%;
+        display: block;
+        position: relative;
+    }
+    .img_area img{
+        width: 100%;
+        height: 250px;
+    }
+    .img_area:nth-child(3),.img_area:nth-child(5){
+        margin-left:0%;
+    }
+    .img_area:nth-child(2),.img_area:nth-child(4),.img_area:nth-child(6){
+        margin-left:5%;
+    }
+    .overlay{
+
+    }
+    .newsletter{
+      position: relative;
+      margin-top:10%;
+    }
+    
+    .destination_area{
+        width: 100%;
+       height: auto;
+        position: relative;
+        margin-top: 3%;
+        margin-left: 9%;
+        float: left;
+    }
+    .card{
+        width: 45%;
+        height: 450px;
+        float: left;
+        background: #ecf0f3;
+        margin-top:10px;
+       z-index: -1;
+      
+        
+    }
+    .customer{
+        margin-top:20%;
+        position: relative;
+        overflow: hidden;
+    }
+  
+  
+    h3{
+        font-size: 25px;
+        font-family: system-ui;
+        color:white;
+    }.h1{
+        text-align: center;
+        position: absolute;
+        margin-left: 10%;
+        margin-top:30px;
+    }
+}
+@media(max-width:991px){
+    #bg_1{
+        width: 40%;
+        height: 15%;
+      
+        margin-left: 15%;
+        z-index: 20;
+        margin-top: 35%;
+        position: absolute;
+        
+       
+    }
+    h2{
+        padding: 14px 15px;
+        font-size: 50px;
+        font-family: Pristina;
+        letter-spacing: 0.5em;
+        color: white;
+        font-weight: 700;
+    }
+    #selection{
+        height: auto;
+        
+    }
+    #selection ul{
+        width: 50%;
+      display: block;
+      position: relative;
+      margin-left: 25%;
+      margin-top: 30px;
+    }
+    #selection h1{
+        font-size: 25px;
+    }
+    #selection input{
+        
+    }
+    #selection ul li{
+        padding: 20px 3px;
+        color:white;
+    }
+    #most_area{
+        margin-top:2%;
+    }
+    #most_area h1{
+        text-align: center;
+        color: #0C3E72;
+        font-size: 35px;
+        margin-top: 0%;
+        position: relative;
+        font-family: system-ui;
+        text-transform: capitalize;
+    }.area{
+        width: 90%;
+        height:650px;
+        
+        margin: 1% auto;
+        position: relative;
+    }
+    .img_area{
+        width: 45%;
+        float: left;
+        margin-top:5%;
+        display: block;
+        position: relative;
+    }
+    .img_area img{
+        width: 100%;
+        height: 250px;
+    }
+    .img_area:nth-child(3),.img_area:nth-child(5){
+        margin-left:0%;
+    }
+    .img_area:nth-child(2),.img_area:nth-child(4),.img_area:nth-child(6){
+        margin-left:5%;
+    }
+    .newsletter{
+        margin-top:10%;
+    }
+    .container{
+        width: 60%;
+        height: 100%;
+        margin: % auto;
+       position:relative;
+    
+    }
+    .container ul{
+        
+    }
+    .destination_area{
+        width: 80%;
+       height: auto;
+        position: relative;
+        margin-top: 3%;
+        margin-left: 9%;
+        float: left;
+    }
+    .card{
+        width: 80%;
+        height: 450px;
+        float: left;
+        background: #ecf0f3;
+        margin-top:10px;
+       z-index: -1;
+      
+        
+    }
+    .fot{
+        width: 95%;
+        margin-left: 2%;
+    }
+    
+    h3{
+        font-size: 25px;
+        font-family: system-ui;
+        color:white;
+    }
+    .h1{
+        text-align: center;
+        position: absolute;
+        margin-left: 8%;
+        margin-top:30px;
+    }
+    .container ul li{
+        margin:0px 20px;
+        position: relative;
+        
+        padding:20px 20px;
+    }
+    #email{
+        width: 200px;
+    }
+    #btn1{
+        width: 150px;
+    }
+}
+
+@media(max-width:768px){
+    #bg_1{
+        width: 40%;
+        height: 15%;
+      
+        margin-left: 5%;
+        z-index: 20;
+        margin-top: 50%;
+        position: absolute;
+        
+       
+    } #selection ul{
+        width: 50%;
+      display: block;
+      position: relative;
+      margin-left: 25%;
+    }
+    h2{
+        padding: 14px 15px;
+        font-size: 50px;
+        font-family: Pristina;
+        letter-spacing: 0.2em;
+        color: white;
+        font-weight: 800;
+    }
+    .area{
+        width: 80%;
+        height:650px;
+        
+        margin: 1% auto;
+        position: relative;
+    }
+    .img_area{
+        width: 100%;
+        float: left;
+        margin-top:2%;
+        display: block;
+        position: relative;
+    }
+    .img_area img{
+        width: 100%;
+        height: 250px;
+    }
+    .img_area:nth-child(3),.img_area:nth-child(5){
+        margin-left:0%;
+    }
+    .img_area:nth-child(2),.img_area:nth-child(4),.img_area:nth-child(6){
+        margin-left:0%;
+    }
+    .overlay{
+        
+    }
+    #most_area{
+        margin-top:1%;
+        position: relative;
+    }
+    #most_area h1{
+        text-align: center;
+        color: #0C3E72;
+        font-size: 35px;
+        margin-top: 5%;
+        position: relative;
+        font-family: system-ui;
+        text-transform: capitalize;
+    }
+    .newsletter{
+        margin-top:108%;
+        width: 100%;
+      
+        position: relative;
+    }
+    #email{
+        width: 150px;
+    }
+    #btn1{
+        width: 120px;
+    }
+    .container{
+        width: 60%;
+        height: 100%;
+        margin: 0 auto;
+       position:relative;
+    
+    }
+    .customer i{
+        font-size: 18px;
+    }
+    .h1{
+        text-align: center;
+        position: absolute;
+        margin-left: 0%;
+        margin-top:25px;
+        font-size: 18px;
+    }
+} .container ul li{
+    margin:0px 20px;
+    position: relative;
+    
+    padding:10px 15px;
+}
+
+@media(max-width:480px){
+    #bg_1{
+        width: 40%;
+        height: 10%;
+      
+        margin-left: 5%;
+        z-index: 20;
+        margin-top: 55%;
+        position: absolute;
+        
+       
+    } #selection ul{
+        width: 50%;
+      display: block;
+      position: relative;
+      margin-left: 25%;
+    }
+    h2{
+        padding: 14px 10px;
+        font-size: 40px;
+        font-family: Pristina;
+        letter-spacing: 0.3em;
+        color: white;
+        font-weight: 700;
+    }
+    #most_area h1{
+        text-align: center;
+        color: #0C3E72;
+        font-size: 35px;
+        margin-top:2%;
+        position: relative;
+        font-family: system-ui;
+        text-transform: capitalize;
+    }
+    .overlay{
+        width: 89%;
+    }
+    .newsletter{
+        height: 100px;
+        margin-top:108%;
+        width: 100%;
+        position: relative;
+    }
+}
+@media(max-width:665px){
+  .newsletter{
+      display: none;
+  }
+}

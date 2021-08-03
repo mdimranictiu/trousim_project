@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBD24.com</title>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="icon" href="logo.jpg">
+</head>
+<body>
+    <!-- Navbar section start -->
+    <header>
+        
+            
+        <div class="logo"><a href="index.html"><img class="img-fluid" src="logo.jpg"></a></div></div>
+        <div class="menu-icon"><i class="fas fa-bars"></i></div>
+           <nav class="menu">
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html">About</a></li>
+                <li><a href="#destination" >Destination</a></li>
+                <li><a href="#places">Places</a></li>   
+                <li><a href="#review45">Review</a></li>
+                <li><a href="contact_us.html">Contact us</a></li>
+                <li><i  id="call" class="fas fa-phone-alt">+8809696-034770</i></li>
+                 <li id="li"><input type="text" class="searchTerm" placeholder="Search.........">
+                  <button type="submit" class="searchButton">
+                  <i class="fa fa-search"></i></li>
+               </ul>
+           </nav>
+       </div>
+   </div>
+
+
+</header>
+    <!--Navbar section End-->
+    <!-- Background_section start -->
+    <div id="bg">
+        <section id="bg_1">
+            <h2>TravelBD24.Com</h2>
+        </section>
+
+    </div>
+    <!-- background section end -->
+    <div id="selection">
+        <ul >
+            <li><h1>Where you want to go?</h1></li>
+            <li><input id="input" type="text" placeholder="Where to GO?" id="place"></li>
+            <li><input id="input" type="date" value="2017-01-01" min="2005-01-01" max="2019-01-01"></li>
+            <li><select id="input" id="cars"  name="cars">
+                <option value="Travel">Travel Type</option>
+                <option value="Travel">Corporate Travel</option>
+                <option value="fm travel">Family Travel</option>
+                <option value="pv">Private Travel</option>
+                <option value="leisure">Leisure Travel</option>
+              </select></li>
+              <input type="button" id="btn" value="Search">
+        </ul><br>
+    </div>
+    <!-- Most popular area start -->
+    <div  id="most_area">
+     <h1 id="places">Most popular Places</h1>
+     
+     <div class="area">
+         <div class="img_area">
+             <img src="img1.jpg" alt="">
+             <div class="overlay">St. Martin's Island</div>
+            
+         </div>
+         <div class="img_area">
+            <img src="img2.jpg" alt="">
+            <div class="overlay">Sundarban</div>
+        </div>
+        <div class="img_area">
+            <img src="img3.jpg" alt="">
+            <div class="overlay">Sylhet</div>
+        </div> <div class="img_area">
+            <img src="img44.jpg" alt="">
+            <div class="overlay">Cox's Bazar</div>
+        </div> <div class="img_area">
+            <img src="img5.jpg" alt="">
+            <div class="overlay">Rangamati</div>
+        </div> <div class="img_area">
+            <img src="img6.jpg" alt="">
+            <div class="overlay">Barisal</div>
+          
+        </div>
+     </div>
+    </div>
+    <!-- MOst popular area end -->
+    <!-- newsletter section start -->
+    <div class="newsletter">
+        <div class="h1"> <h1>Subscribe Our Newsletter</h1></div> 
+       <div class="container">  <ul>  
+        
+            </li>
+            <li><input id="email" type="eamil" placeholder="Enter You Email"></li>
+            <li><input id="btn1" onclick="sweet()" type="button" value="Subscribe"></li>
+        </ul>
+        </div>
+
+    </div>
+    <!-- newsletter section end -->
+    <!-- Select your destination -->
+     <div style="transition:5s;" id="destination"> 
+        <h1>Select Your Destination</h1>
+        <div class="destination_area">
+            <div  class="card">
+                <div  class="card_1">
+                    <div class="img"><img src="x.jpg"><div class="price">$500</div></div>
+                    <div class="title">
+                        <h1>St. Martin's Island</h1>
+                        <h3 style="color:#A78A8B;">Bangladesh</h3>
+                        <div id="review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i id="mark" class="fas fa-star"></i>(20 Review)</div>
+                        <div id="time">5 Days</div>
+                    </div>
+                    <input  class="input" type="submit" value="Buy">
+                </div>
+
+            </div>
+            <div  class="card">
+                <div class="card_1">
+                    <div class="img"><img src="card_img2.jpg"><div class="price">$400</div></div>
+                    <div class="title">
+                        <h1>Cox's Bazar</h1>
+                        <h3 style="color:#A78A8B;">Bangladesh</h3>
+                        <div id="review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i id="mark" class="fas fa-star"></i><i id="mark" class="fas fa-star"></i>(25 Review)</div>
+                        <div id="time">14 Days</div>
+                    </div>
+                    <input  class="input" type="submit" value="Buy">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_1">
+                    <div class="img"><img src="card_img3.jpeg"><div class="price">$900</div></div>
+                    <div class="title">
+                        <h1>Vatican Museums</h1>
+                        <h3 style="color:#A78A8B;">Italy</h3>
+                        <div id="review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>(30 Review)</div>
+                        <div id="time">10 Days</div>
+                    </div>
+                    <input  class="input" type="submit" value="Buy">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_1">
+                    <div class="img"><img src="card_img4.jpeg"><div class="price">$1200</div></div>
+                    <div class="title">
+                        <h1>Louvre Museum</h1>
+                        <h3 style="color:#A78A8B;">France</h3>
+                        <div id="review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i id="mark" class="fas fa-star"></i>(14 Review)</div>
+                        <div id="time">15 Days</div>
+                    </div>
+                    <input  class="input" type="submit" value="Buy">
+                </div>
+            </div>
+            <div  class="card">
+                <div class="card_1">
+                    <div class="img"><img src="card_img5.jpg"><div class="price">$1500</div></div>
+                    <div class="title">
+                        <h1>Golden Gate Bridge</h1>
+                        <h3 style="color:#A78A8B;">United States</h3>
+                        <div id="review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i id="mark" class="fas fa-star"></i>(10 Review)</div>
+                        <div id="time">7 Days</div>
+                    </div>
+                    <input  class="input" type="submit" value="Buy">
+                </div>
+            </div>
+            <div  class="card">
+                <div class="card_1">
+                    <div class="img"><img src="card_img6.jpg"><div class="price">$950</div></div>
+                    <div class="title">
+                        <h1>Colosseum,Rome</h1>
+                        <h3 style="color:#A78A8B;">Italy</h3>
+                        <div id="review"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i id="mark" class="fas fa-star"></i>(25 Review)</div>
+                        <div id="time">14 Days</div>
+                    </div>
+                    <input class="input" type="submit" value="Buy">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end destination -->
+    <!-- review section-->
+    <div class="customer">
+        <h1 id="review45">Happy Customers</h1><br><br>
+        <div class="div1">
+            <div class="div_sec">
+                <div class="profile">
+                   <img src="review1.jpg" alt="">
+
+                </div>
+                <br><br><br>
+                <i>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+
+                  <br>  — Clare Gupta</i>
+
+            </div>
+            <div class="div_sec">
+                <div class="profile">
+                    <img src="review2.jpg" alt="">
+ 
+                 </div>
+                 <br><br><br>
+                 <i>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+ 
+                   <br>  — Patrick Swan</i>
+            </div>
+            <div class="div_sec">
+                <div class="profile">
+                    <img src="review3.jpg" alt="">
+ 
+                 </div>
+                 <br><br><br>
+                 <i>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+ 
+                   <br>  _ Labia Hasan</i>
+            </div>
+        </div>
+    </div>
+    <!--review section end -->
+    <!--footer area start -->
+     <div class="parent"> 
+        <div class="child">
+            <div class="footer_section">
+               
+                
+                <h4>TravelBD24.com </h4><strong><br>
+                Main Branch: DattaPara, KhanKhanaPur <br> Rajbari Sadar,Rajbari <br>
+            Sub Branch : Kushtia Sadar <br>Mobile:  +8809696-034770<br>admin@travelbd24.com
+        
+                </strong>
+
+            </div>
+            <div class="footer_section">
+                 
+                <h3 id="dd"> Company </h3>
+                
+                <div class="link">
+                    <ul><li><a href="about_us.html">About</a></li>
+                        <li><a href="#destination">Destination</a></li>
+                    <li><a href="#review45">Review</a></li>
+                    <li><a href="#places">Places</a></li>
+                    <li><a href="contact_us.html">Contact us</a></li></ul>
+                </div>
+            </div>
+            <div class="footer_section">
+                <h3 id="fb">  Our Social Platforms </h3> <br><br>
+                <div class="social"><br>
+                    <ul>
+                        <li><i class="fab fa-facebook"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-instagram-square"></i></li>
+                        <li><i class="fab fa-pinterest"></i></li>
+                        <li><i class="fab fa-youtube"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy"> 
+            <h5>Copyright&#169;Travelbd24.com|| All rights reserved ||<br>
+            Designed and Developed By <a href="https://facebook.com/imran.ict.iu" style="text-decoration: none;color:#9ba4a8;" target="_blank">Md Imran Sheikh</a><br>
+        Powered By  <a href="https://facebook.com/imransitzone" style="text-decoration: none;color:#9ba4a8;" target="_blank">Imran's IT Zone</a></h5>
+        </div> 
+    </div>
+
+</body>
+</html>
+<script src="wow.js"></script>
+<script src="wow.min.js"></script>
+<script src="https://kit.fontawesome.com/b1b31889f3.js" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+<script src="sweetalert2.all.min.js"></script>
+<script src="sweetalert2.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="app2.js"></script>
+
+
